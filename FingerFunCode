@@ -1,0 +1,21 @@
+function setup() {
+  createCanvas(600, 400);
+  background('salmon');
+
+}
+
+function draw() {
+  start();
+  
+}
+
+function start () {
+  textSize(75);
+  fill('black');
+  text('FingerFun', 130, 90);
+  
+  //start button
+  fill('light grey');
+  rect(110,140,350, 100)
+  
+}
